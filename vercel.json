@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "8576828258:AAFN-9Vo0FrGqbp8IDLbPzjf83GDiWiUSeY"
+    },
+    "TELEGRAM_CHAT_ID": {
+      "description": "-5058366830"
+    }
+  },
+  "functions": {
+    "api/feedback.ts": {
+      "maxDuration": 30
+    }
+  }
+}
